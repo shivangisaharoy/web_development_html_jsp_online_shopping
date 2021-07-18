@@ -1,0 +1,23 @@
+<script>  
+function validateform(){  
+var username=document.myform.username.value;  
+var password=document.myform.password.value;  
+  
+if (username==null || username==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+<body>  
+<form name="myform" method="post" action="form_validation_using_java_script.jsp" onsubmit="return validateform()" >  
+<label for="fname">name</label>
+<input type="text" name="username"><br/>  
+<label for="fname">password</label>
+<input type="password" name="password"><br/>  
+<input type="submit" value="register">  
+</form>  
+</body>
