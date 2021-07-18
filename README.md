@@ -1,8 +1,6 @@
 # web_development_html_jsp_online_shopping
 Basic JSP programs.
 
-# web_development_html_jsp
-
 Contains HTML-JSP files for six basic programs which can be connected to DB via JDBC.
 
 program 1: REGISTRATION FORM
